@@ -44,7 +44,12 @@ Replace `WEBHOOK_PROXY_URL` with the value of `WEBHOOK_PROXY_URL` in your `.env`
 
 ## Deployment
 
-_tbd_
+1. Make sure you registered your GitHub App
+2. Fork this repository
+3. Sign in to your Netlify account, follow instructions at https://app.netlify.com/start
+4. In your GitHub App's settings, update the webhook URL to the netlify domain, e.g. `https://my-probot-app.netlify.app/.netlify/functions/webhooks`
+5. Add environment variabbles in your Netlify's app's site settings ("Build & deploy" -> "Environment"): `APP_ID`, `PRIVATE_KEY` (replace line breaks with `\n`), `WEBHOOK_SECRET`
+6. Trigger a deploy so that the new environment variables take effect.
 
 ## License
 

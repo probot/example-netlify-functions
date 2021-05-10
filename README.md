@@ -1,5 +1,7 @@
 # Probot & Netlify Functions example
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c346e959-1db7-4395-8774-9def53cbf9e3/deploy-status)](https://app.netlify.com/sites/probot-example/deploys)
+
 This repository is an example of how to deploy the "Hello, World" of probot apps to [Netlify Functions](https://www.netlify.com/products/functions/).
 
 ## Local setup

@@ -1,0 +1,32 @@
+{
+  "name": "@probot/example-netlify-functions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Probot & Netlify Functions example",
+  "main": "app.js",
+  "scripts": {
+    "start": "probot run ./app.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "probot": "^11.0.5"
+  },
+  "repository": "https://github.com/probot/example-netlify-functions",
+  "keywords": [
+    "netlify",
+    "probot"
+  ],
+  "author": "Gregor Martynus (https://twitter.com/gr2m)",
+  "license": "ISC",
+  "devDependencies": {
+    "@netlify/functions": "^0.7.2",
+    "nock": "^13.0.7",
+    "smee-client": "^1.2.2",
+    "uvu": "^0.5.1"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
+}

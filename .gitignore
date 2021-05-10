@@ -1,0 +1,5 @@
+# local configuration
+.env
+
+# package directories
+node_modules

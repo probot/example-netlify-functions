@@ -21,7 +21,7 @@
   "devDependencies": {
     "@netlify/functions": "^1.0.0",
     "nock": "^13.0.7",
-    "smee-client": "^1.2.2",
+    "smee-client": "^2.0.1",
     "uvu": "^0.5.1"
   },
   "release": {

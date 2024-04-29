@@ -1,12 +1,12 @@
-const { suite } = require("uvu");
-const assert = require("uvu/assert");
+import { suite } from "uvu";
+import * as assert from "uvu/assert";
 
-const nock = require("nock");
+import nock from "nock";
 nock.disableNetConnect();
 
-const { Probot, ProbotOctokit } = require("probot");
+import { Probot, ProbotOctokit } from "probot";
 
-const app = require("./app");
+import app from "./app.js";
 
 /** @type {import('probot').Probot */
 let probot;
@@ -59,4 +59,4 @@ test("recieves issues.opened event", async function () {
   assert.equal(mock.activeMocks(), []);
 });
 
-test.run();
+export default test;

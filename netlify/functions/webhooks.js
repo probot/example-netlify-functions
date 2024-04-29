@@ -1,5 +1,5 @@
-const { createProbot } = require("probot");
-const app = require("../../app");
+import { createProbot } from "probot";
+import app from "../../app.js";
 
 const probot = createProbot();
 const loadingApp = probot.load(app);
@@ -10,7 +10,7 @@ const loadingApp = probot.load(app);
  * @param {import("@netlify/functions").HandlerEvent} event
  * @param {import("@netlify/functions").HandlerContext} context
  */
-exports.handler = async function (event, context) {
+export const handler = async function (event, context) {
   try {
     await loadingApp;
 

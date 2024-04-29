@@ -4,6 +4,7 @@
   "private": true,
   "description": "Probot & Netlify Functions example",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "start": "probot run ./app.js",
     "test": "node test.js"
@@ -20,7 +21,7 @@
   "license": "ISC",
   "devDependencies": {
     "@netlify/functions": "^1.0.0",
-    "nock": "^13.0.7",
+    "nock": "^14.0.0-beta.6",
     "smee-client": "^1.2.2",
     "uvu": "^0.5.1"
   },

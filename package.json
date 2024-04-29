@@ -4,6 +4,7 @@
   "private": true,
   "description": "Probot & Netlify Functions example",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "start": "probot run ./app.js",
     "test": "node test.js"

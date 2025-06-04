@@ -3,3 +3,5 @@
 
 # package directories
 node_modules
+# Netlify directories
+.netlify

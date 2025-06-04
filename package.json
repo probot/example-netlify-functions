@@ -24,6 +24,9 @@
     "smee-client": "^2.0.4",
     "uvu": "^0.5.1"
   },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "release": {
     "branches": [
       "main"

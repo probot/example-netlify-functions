@@ -20,7 +20,7 @@
   "author": "Gregor Martynus (https://twitter.com/gr2m)",
   "license": "ISC",
   "devDependencies": {
-    "@netlify/functions": "^4.0.0",
+    "@netlify/functions": "^5.1.0",
     "nock": "^14.0.5",
     "smee-client": "^2.0.4",
     "uvu": "^0.5.1"

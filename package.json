@@ -10,7 +10,7 @@
     "test": "node test.js"
   },
   "dependencies": {
-    "probot": "^13.0.0"
+    "probot": "^14.0.0"
   },
   "repository": "https://github.com/probot/example-netlify-functions",
   "keywords": [
